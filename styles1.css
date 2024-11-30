@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: brown;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: lightseagreen;
+    padding: 10px 25px;
+    border: none;
+    margin: 20px 0;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+header {
+    background: linear-gradient(4deg, violet, lightseagreen);
+    padding: 20px;
+}
+
+header h1 {
+    color: whitesmoke;
+}
+
+nav {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+}
+
+nav a:hover {
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+
+.home-section {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.places-section {
+    padding: 50px;
+    background-color: #eaf1f1;
+}
+
+.our-packages {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.packages-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.packages-container figure {
+    width: 320px; /* Larger size */
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.packages-container img {
+    width: 100%;
+    height: 250px; /* Adjusted height for larger images */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.packages-container figcaption {
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.packages-container p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.main-footer {
+    background-color: gray;
+    color: whitesmoke;
+    padding: 20px;
+    margin-top: 30px;
+}
